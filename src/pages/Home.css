@@ -1,0 +1,18 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #111111;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.home__body > img {
+    object-fit: contain;
+    height: 200px;
+}
